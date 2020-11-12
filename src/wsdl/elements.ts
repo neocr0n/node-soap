@@ -330,6 +330,7 @@ export class OutputElement extends Element {
   public targetNamespace?: string;
   public use?: string;
   public encodingStyle?: string;
+  public $lookupType;
   public $lookupTypes;
 
   public addChild(child: Element) {
